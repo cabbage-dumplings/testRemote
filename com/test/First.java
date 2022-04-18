@@ -11,7 +11,6 @@ public class First {
         AtomicInteger a = new AtomicInteger(0);
         Thread t1 = new Thread(() -> {
             try {
-                //Thread.sleep(5000);
                 System.out.println();
             } catch (Exception e) {
                 //System.out.println("被打断");
