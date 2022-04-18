@@ -14,8 +14,6 @@ public class First {
                 //Thread.sleep(5000);
                 System.out.println();
             } catch (Exception e) {
-                //System.out.println("被打断");
-                //System.out.println("被打断后"+Thread.currentThread().isInterrupted());
                 e.printStackTrace();
             }
         });
